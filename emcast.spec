@@ -1,5 +1,5 @@
 Summary:	Generic multicast utility
-Summary(pl.UTF-8):   Wszechstronne narzędzia do multicastów
+Summary(pl.UTF-8):	Wszechstronne narzędzia do multicastów
 Name:		emcast
 Version:	0.3.2
 Release:	1
@@ -35,7 +35,7 @@ Banana Tree Protocol (BTP), Internet Relay Chat (IRC) i STAR
 
 %package libs
 Summary:	emcast library
-Summary(pl.UTF-8):   Biblioteka emcast
+Summary(pl.UTF-8):	Biblioteka emcast
 Group:		Libraries
 
 %description libs
@@ -46,7 +46,7 @@ Biblioteka do obsługi multicastów.
 
 %package devel
 Summary:	emcast header files
-Summary(pl.UTF-8):   Pliki nagłówkowe emcast
+Summary(pl.UTF-8):	Pliki nagłówkowe emcast
 Group:		Development/Libraries
 Requires:	%{name}-libs = %{version}-%{release}
 
@@ -58,7 +58,7 @@ Pliki nagłówkowe emcast
 
 %package static
 Summary:	emcast static library
-Summary(pl.UTF-8):   Statyczna biblioteka emcast
+Summary(pl.UTF-8):	Statyczna biblioteka emcast
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
