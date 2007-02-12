@@ -1,5 +1,5 @@
 Summary:	Generic multicast utility
-Summary(pl):	Wszechstronne narzêdzia do multicastów
+Summary(pl.UTF-8):   Wszechstronne narzÄ™dzia do multicastÃ³w
 Name:		emcast
 Version:	0.3.2
 Release:	1
@@ -23,49 +23,49 @@ multicast (IM) and can easily support almost any end-host multicast
 
 Emcast is pronounced em-cast.
 
-%description -l pl
-Emcast jest zestawem narzêdzi do obs³ugi multicastów dla aplikacji
-rozproszonych/p2p, które wymagaj± komunikacji multicastowej. Zawiera
-program emcast - wszechstronne narzêdzie do obs³ugi multicastów (jak
-netcat), oraz bibliotekê libemcast - ogóln± bibliotekê do multicastów.
-Emcast obs³uguje multicasty IPv4 (IM) i mo¿e ³atwo obs³u¿yæ prawie
-dowolny protokó³ koñcowego hosta (EM). Obs³ugiwane protoko³y EM to
+%description -l pl.UTF-8
+Emcast jest zestawem narzÄ™dzi do obsÅ‚ugi multicastÃ³w dla aplikacji
+rozproszonych/p2p, ktÃ³re wymagajÄ… komunikacji multicastowej. Zawiera
+program emcast - wszechstronne narzÄ™dzie do obsÅ‚ugi multicastÃ³w (jak
+netcat), oraz bibliotekÄ™ libemcast - ogÃ³lnÄ… bibliotekÄ™ do multicastÃ³w.
+Emcast obsÅ‚uguje multicasty IPv4 (IM) i moÅ¼e Å‚atwo obsÅ‚uÅ¼yÄ‡ prawie
+dowolny protokÃ³Å‚ koÅ„cowego hosta (EM). ObsÅ‚ugiwane protokoÅ‚y EM to
 Banana Tree Protocol (BTP), Internet Relay Chat (IRC) i STAR
 (scentralizowany TCP).
 
 %package libs
 Summary:	emcast library
-Summary(pl):	Biblioteka emcast
+Summary(pl.UTF-8):   Biblioteka emcast
 Group:		Libraries
 
 %description libs
 Generic multicast library.
 
-%description libs -l pl
-Biblioteka do obs³ugi multicastów.
+%description libs -l pl.UTF-8
+Biblioteka do obsÅ‚ugi multicastÃ³w.
 
 %package devel
 Summary:	emcast header files
-Summary(pl):	Pliki nag³ówkowe emcast
+Summary(pl.UTF-8):   Pliki nagÅ‚Ã³wkowe emcast
 Group:		Development/Libraries
 Requires:	%{name}-libs = %{version}-%{release}
 
 %description devel
 emcast header files
 
-%description devel -l pl
-Pliki nag³ówkowe emcast
+%description devel -l pl.UTF-8
+Pliki nagÅ‚Ã³wkowe emcast
 
 %package static
 Summary:	emcast static library
-Summary(pl):	Statyczna biblioteka emcast
+Summary(pl.UTF-8):   Statyczna biblioteka emcast
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
 emcast static library.
 
-%description static -l pl
+%description static -l pl.UTF-8
 Statyczna biblioteka emcast.
 
 %prep
